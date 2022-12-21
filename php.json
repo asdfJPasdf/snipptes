@@ -1,0 +1,19 @@
+{
+	"Print vars and exit": {
+		"prefix": "prex",
+		"body": [
+			"echo '<pre>';print_r($1);exit;",
+		]
+	},
+	"Print vars": {
+		"prefix": "pre",
+		"body": [
+			"echo '<pre>';print_r($1);echo '</pre>';",
+		]
+	},
+	
+
+
+
+
+}
