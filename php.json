@@ -12,7 +12,20 @@
 		]
 	},
 	
-
+	},
+	"post var": {
+		"prefix": "inpo",
+		"body": [
+			"$this->input->post('$1');",
+		]
+	},
+	
+	"load view": {
+		"prefix": "lovi",
+		"body": [
+			"$this->load->view('$1');",
+		]
+	},
 
 
 
